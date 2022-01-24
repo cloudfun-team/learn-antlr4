@@ -1,0 +1,38 @@
+{
+  "name": "lear-antlr4",
+  "version": "0.0.1",
+  "description": "learn antlr4 for web developer",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "watch": "tsc -w",
+    "tsc": "tsc",
+    "lint": "eslint '.' --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudfun-team/learn-antlr4"
+  },
+  "lint-staged": {
+    "*.ts": "eslint --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "antlr4ts-cli": "^0.5.0-alpha.4",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "typescript": "^4.3.5"
+  },
+  "keywords": [
+    "antlr4"
+  ],
+  "author": "Yuhang <geyuhang@bytedance.com>",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4ts": "^0.5.0-alpha.4"
+  }
+}
